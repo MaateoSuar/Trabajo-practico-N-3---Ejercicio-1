@@ -29,7 +29,7 @@ const miServidor = http.createServer((peticion, respuesta) => {
 });
 
 miServidor.listen(3000);
-
+// COMENTARIOS:
 // Por qué es monolítica: Todo está en este archivo. No separé el código en partes, como la lista de productos o las funciones para agregar y listar. Es como un solo bloque grande.
 // Desventajas:
 // 1. Es difícil entenderlo si se hace más grande porque todo está junto.
